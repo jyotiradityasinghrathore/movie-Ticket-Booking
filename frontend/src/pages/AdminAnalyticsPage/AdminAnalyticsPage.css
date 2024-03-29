@@ -1,0 +1,47 @@
+.chartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 20px auto;
+}
+  
+.pageTitle {
+    text-align: center;
+}
+
+.backButton {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topBar {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+    margin: 20px 0; /* Adjust top and bottom margin as needed */
+}
+  
+  /* Style for the FormControl with a class */
+.formControl {
+    background-color: white;
+    border-radius: 4px;
+}
+  
+  /* Style for the select element within the FormControl */
+.selectElement {
+    color: black;
+}
+  
+  /* You may want to add more styles here to adjust the dropdown size and positioning */
+  

@@ -1,0 +1,108 @@
+.booking-confirmation{
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin: 5% 33%;
+}
+
+.booking-detail{
+    display: flex;
+    border-bottom: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+}
+.movie-title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px;
+}
+.movie-title-header{
+    font-size: medium;
+}
+.movie-title{
+    font-size: larger;
+}
+.booking-confirmation-date{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 5px;
+}
+.tickets{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+    font-size: medium;
+}
+.ticket-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+.seat-numbers{
+    display: flex;
+    /* border: 1px solid white; */
+    font-size: medium;
+    /* justify-content: space-between; */
+}
+.transaction{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    margin: 15px 15px;
+    gap: 10px;
+}
+.transaction-detail{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.regular-seat,
+.online-service-fee{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 10px; */
+    /* border: 1px solid white; */
+}
+.total-payment{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    font-size: xx-large;
+    /* margin: 0 15px; */
+    /* padding: 0 15px; */
+}
+.reward-points{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    /* border: 1px solid white; */
+    /* margin: 0 10px; */
+}
+.confirm-btn{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 15px;
+    /* color: white; */
+    /* width: 100%; */
+}
+
+.discount {
+    /* display: flex;
+    flex-direction: column; */
+    /* font-size: small; */
+    gap: 5px;
+    /* border: 1px solid white; */
+    padding: 0;
+}
+
+.discount-6pm,
+.discount-tuesday{
+    display: flex;
+    /* font-size: medium; */
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}

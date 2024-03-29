@@ -1,0 +1,27 @@
+.profile-user-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 20px;
+    text-align: center;
+  }
+.profile-reward-points{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.profile-booking{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+    /* padding: 0 10%; */
+}
+
+/* .toggle-btns{
+    display: flex;
+    justify-content: center;
+    margin: 5% 10%;
+    gap: 10px;
+} */

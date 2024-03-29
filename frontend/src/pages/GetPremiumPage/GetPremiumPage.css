@@ -1,0 +1,55 @@
+.get-premium-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #000; /* Assuming a dark theme from your image */
+    padding: 0 15px; /* Add padding to ensure content is not flush against the window edge */
+    overflow: hidden;
+  }
+  
+  .get-premium-card {
+    background: #121212; /* A darker shade for the card background */
+    color: #fff; /* White text color */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; /* Set a max-width for larger screens */
+    margin: auto; /* This will center the card in the flex container */
+    text-align: center; /* Center text */
+  }
+  
+  .transaction-details {
+    margin-bottom: 2rem;
+  }
+  
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .total-payment {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+  }
+  
+  /* Button styles (Assuming your Button component accepts a className prop) */
+  .button-container {
+    text-align: center; /* Center-align the button */
+  }
+  
+  /* If your button component uses its own container, you might need to make it full-width */
+  .button-container > .button { /* Adjust the selector based on your actual button class */
+    width: 100%; /* Make the button expand to the width of its container */
+    max-width: 300px; /* Optional: if you want to limit the button width */
+    margin: 0 auto; /* Center the button */
+  }  

@@ -1,0 +1,14 @@
+.membership-box{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    max-width: 500px;
+    border: 1px solid white;
+    border-radius: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.membership-box-btn{
+    margin: 50px;
+}

@@ -1,0 +1,44 @@
+.payment-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+
+.payment-success-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.payment-success-title{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.payment-success-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1FD377;
+    /* border: 1px solid white; */
+    margin-bottom: 10px;
+}
+
+.payment-success-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    
+}
+
+.payment-success-viewticket{
+    margin: 5px;
+}

@@ -1,0 +1,52 @@
+/* styles.css or App.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+}
+  
+  .navbar-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button,
+  .register-button,
+  .logout-button,
+  .profile-button{
+    background-color: #000000;
+    color: #1DE782;
+    padding: 8px 16px;
+    border: 1px solid #1DE782;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .logout-button:hover{
+    background-color: #DC0100;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    /* border: 1px solid #1DE782; */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .login-button:hover,
+  .register-button:hover,
+  .profile-button:hover {
+    background-color: #1DE782;
+    color: white;
+  }
+
+  
+  

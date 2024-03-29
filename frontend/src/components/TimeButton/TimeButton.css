@@ -1,0 +1,20 @@
+.time-button{
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 15px;
+    max-width: 100%;
+}
+.time-button-selected{
+    border-radius: 1rem;
+    padding: 15px;
+    max-width: 100%;
+    background-color: #1DE782;
+    border: none;
+    cursor: pointer;;
+}
+
+.time-button:hover{
+    background-color: #1DE782;
+    border: none;
+    cursor: pointer;;
+}

@@ -1,0 +1,33 @@
+.city-box{
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+.city-box-selected{
+    display: flex;
+    background-color: #1DE782;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 20px;
+    min-width: 100%;
+    padding: 10px;
+}
+
+.city-box:hover{
+    background-color: #1DE782;
+    border: none;
+    cursor: pointer;
+}
+
+

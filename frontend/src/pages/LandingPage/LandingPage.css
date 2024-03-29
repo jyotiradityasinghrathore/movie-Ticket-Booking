@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    color: white;
+    /* font-family: popping; */
+    /* border: 1px solid white; */
+}
+
+.title-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.title-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 120px;   
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.movie-tiles{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center; /* Center the content horizontally */
+  margin: 20px;
+  /* display: grid;
+  border: 1px solid white;
+  overflow: hidden;
+  grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: repeat(4, 1fr); Four columns in a row */
+  /* gap: 20px; Adjust the gap between tiles as needed */
+  /* margin: 20px; Add margin to the grid container */
+}
+
+.proceed-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.membership{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* border: 1px solid white; */
+    padding: 100px;
+}

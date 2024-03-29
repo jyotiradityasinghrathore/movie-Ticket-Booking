@@ -1,0 +1,13 @@
+.card{
+    width: 280px;
+    border-radius: 7%;
+    text-align: center; 
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+ .card:hover {
+    transform: scale(1.06); /* Enlarge the card on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
