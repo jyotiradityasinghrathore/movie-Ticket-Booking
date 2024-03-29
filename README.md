@@ -1,4 +1,4 @@
-# Movie Theater Club Application
+# Movie Theater Ticket Booking Application
 
 ## Author: Jyotiraditya
 
